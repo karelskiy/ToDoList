@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	height: 100%;
+	background-size: cover;
+	background:linear-gradient(90deg,#1D2B64 0%, #F8CDDA 100%);
+	/* background-image: url('https://www.designyourway.net/blog/wp-content/uploads/2016/07/Motivational-wallpaper-quotes-7.jpg') */
+}
+
+.underlined {
+	color: black;
+	
+	
+}
+
+h1{
+	font-size: 4rem;
+	font-weight: 50;
+	margin: 1.5rem 0 3rem;
+	text-align: center;
+	color: white
+	
+}
+input#in{
+	padding: 0.5rem 1rem;
+	height: 35px;
+	outline: none;
+	background-color: #fff;
+	width: 624px;
+	font-size: 1.15rem;
+	margin-top: 0.25rem;
+	border-radius: 4px;
+
+}
+
+button#add{
+	outline: none!important;
+	border: none;
+	background: none;
+	padding-right: 20px;
+	padding-top: 4px;
+
+}
+
+button#removeAll{
+	outline: none;
+	border: none;
+	background: none;
+}
+
+main#main{
+	padding: 30px;
+	display: block;	
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	border-radius:4px; 
+	background-color : rgba(255, 255, 255, .5);
+}
+
+div#out{
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+label#l1{
+	font-size: 2rem;
+	font-weight: 50;
+}
+
+.main1{
+	float: left;
+}
+
+.main2{
+	float: right;
+}
+
+input[type=checkbox]{
+	transform: scale(1.5);
+	margin-right: 10px;
+	margin-left: 4px;
+}
+
+div span{
+	color: #000;
+	height: 42px;;
+	font-size: 1.5rem;
+}
+
+span.text{
+	font-size: 1.5rem;
+	text-decoration: line-through; 
+	text-decoration-color: red;
+}
+
+.remove{
+	position: relative;
+	display: block;
+	font-size: 1.5rem;
+	right: -709px;
+	top: -58px;
+	background: none;
+	font-weight: bold;
+	border: none !important;
+	outline: none !important;
+	width: 28px;
+	height: 28px;
+}
+
+.remove:focus{
+	border: none !important;
+	outline: none !important;
+}
+
+span[contenteditable=true]{
+	background: none;
+	border: none;
+	outline: none;
+}
+
+img.edit{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	display: block;
+	right: -649px;
+	top: -30px;
+	
+}
+
+img.save{
+	width: 30px;
+	height: 30px;
+	position: relative;
+	display: block;
+	right: -649px;
+	top: -30px
+}
