@@ -29,8 +29,11 @@ document.getElementById('add').onclick = () => {
 
 	out();
 	document.getElementById('in').value = '';
+	document.getElementById('in').focus();
 	localStorage.setItem('todo', JSON.stringify(todoList));
 }
+
+
 
 document.getElementById('out').onchange = (event) => {
 	let currentKey = event.target.parentNode.childNodes[1].innerText;
@@ -47,7 +50,6 @@ document.getElementById('out').onchange = (event) => {
 
 
 document.getElementById('out').onclick = (event) => {
-	console.log(event.target.parentNode)
 	let text = event.target.parentNode.children[1].innerText;
 	if (event.target.className == 'remove') {
 		event.target.parentNode.remove();
