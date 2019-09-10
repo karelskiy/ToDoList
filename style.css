@@ -23,11 +23,12 @@ h1{
 	font-weight: 50;
 	margin: 1.5rem 0 3rem;
 	text-align: center;
-	color: white
+	color: white;
+	zoom: .75;
 	
 }
 input#in{
-	padding: 0.5rem 1rem;
+	padding: 0.5rem .75rem;
 	height: 35px;
 	outline: none;
 	background-color: #fff;
@@ -61,6 +62,7 @@ main#main{
 	margin: 0 auto;
 	border-radius:4px; 
 	background-color : rgba(255, 255, 255, .5);
+	zoom: .75;
 }
 
 div#out{
